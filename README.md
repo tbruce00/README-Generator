@@ -40,9 +40,11 @@ Trevor Bruce
 
 A link to the video demonstration.
 
+[Video Demo]()
+
 
 ## Contact
 
-Github: 
-Email: tbnyk03@gmail.com
+[Github Profile](https://github.com/)
+[Email](mailto:tbnyk03@gmail.com)
 
