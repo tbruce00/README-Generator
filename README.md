@@ -6,13 +6,13 @@ For this project we were required to build a README generator from the command l
 
 ## Table of Contents
 
-    - Description
-    - Installation
-    - Usage
-    - License
-    - Contributors
-    - Tests
-    - Contact
+    * Description
+    * Installation
+    * Usage
+    * License
+    * Contributors
+    * Tests
+    * Contact
 
 ## Installation
 
@@ -29,6 +29,7 @@ In the terminal the user must type in 'node index.js' to initialize the question
 
 ## License
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributors
 
