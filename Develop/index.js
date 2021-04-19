@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = ('./utils/generateMarkdown.js');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // const generateReadme = (answers) =>
 // ``
@@ -48,7 +48,7 @@ const questions = [
                 'GPL3.0',
                 'MIT',
                 'Mozilla Public 2.0',
-                'EOL-2.0',
+                'Eclipse',
 
             ],
         },
@@ -78,8 +78,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer .prompt(questions)
-    .then(res => {
-        writeToFile('./Output/README.md', gererateMarkdown(res));
+    .then(response => {
+        writeToFile('./Output/README.md', gererateMarkdown(response));
     })
 };
 
